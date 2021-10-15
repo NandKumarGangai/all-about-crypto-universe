@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import config from '../config.json';
+import config from '../config/config.json';
 
 const cryptoNewsApiHeaders = config[1].options.headers;
 const baseUrl = config[1].options.url;
