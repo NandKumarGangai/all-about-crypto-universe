@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/all-about-crypto-universe/static/css/main.848b2c44.chunk.css",
-    "main.js": "/all-about-crypto-universe/static/js/main.50d4fc7e.chunk.js",
-    "main.js.map": "/all-about-crypto-universe/static/js/main.50d4fc7e.chunk.js.map",
+    "main.js": "/all-about-crypto-universe/static/js/main.704c3b8a.chunk.js",
+    "main.js.map": "/all-about-crypto-universe/static/js/main.704c3b8a.chunk.js.map",
     "runtime-main.js": "/all-about-crypto-universe/static/js/runtime-main.084bf636.js",
     "runtime-main.js.map": "/all-about-crypto-universe/static/js/runtime-main.084bf636.js.map",
     "static/css/2.786ae0dd.chunk.css": "/all-about-crypto-universe/static/css/2.786ae0dd.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.786ae0dd.chunk.css",
     "static/js/2.968adc52.chunk.js",
     "static/css/main.848b2c44.chunk.css",
-    "static/js/main.50d4fc7e.chunk.js"
+    "static/js/main.704c3b8a.chunk.js"
   ]
 }
