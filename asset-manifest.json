@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/all-about-crypto-universe/static/css/main.a439e3c6.chunk.css",
-    "main.js": "/all-about-crypto-universe/static/js/main.32b7bffe.chunk.js",
-    "main.js.map": "/all-about-crypto-universe/static/js/main.32b7bffe.chunk.js.map",
+    "main.js": "/all-about-crypto-universe/static/js/main.9114e3d1.chunk.js",
+    "main.js.map": "/all-about-crypto-universe/static/js/main.9114e3d1.chunk.js.map",
     "runtime-main.js": "/all-about-crypto-universe/static/js/runtime-main.efb186f6.js",
     "runtime-main.js.map": "/all-about-crypto-universe/static/js/runtime-main.efb186f6.js.map",
     "static/css/2.a2f387c5.chunk.css": "/all-about-crypto-universe/static/css/2.a2f387c5.chunk.css",
-    "static/js/2.973e50a8.chunk.js": "/all-about-crypto-universe/static/js/2.973e50a8.chunk.js",
-    "static/js/2.973e50a8.chunk.js.map": "/all-about-crypto-universe/static/js/2.973e50a8.chunk.js.map",
+    "static/js/2.dae99d61.chunk.js": "/all-about-crypto-universe/static/js/2.dae99d61.chunk.js",
+    "static/js/2.dae99d61.chunk.js.map": "/all-about-crypto-universe/static/js/2.dae99d61.chunk.js.map",
     "index.html": "/all-about-crypto-universe/index.html",
     "static/css/2.a2f387c5.chunk.css.map": "/all-about-crypto-universe/static/css/2.a2f387c5.chunk.css.map",
     "static/css/main.a439e3c6.chunk.css.map": "/all-about-crypto-universe/static/css/main.a439e3c6.chunk.css.map",
-    "static/js/2.973e50a8.chunk.js.LICENSE.txt": "/all-about-crypto-universe/static/js/2.973e50a8.chunk.js.LICENSE.txt",
+    "static/js/2.dae99d61.chunk.js.LICENSE.txt": "/all-about-crypto-universe/static/js/2.dae99d61.chunk.js.LICENSE.txt",
     "static/media/cryptocurrency.1548aced.png": "/all-about-crypto-universe/static/media/cryptocurrency.1548aced.png"
   },
   "entrypoints": [
     "static/js/runtime-main.efb186f6.js",
     "static/css/2.a2f387c5.chunk.css",
-    "static/js/2.973e50a8.chunk.js",
+    "static/js/2.dae99d61.chunk.js",
     "static/css/main.a439e3c6.chunk.css",
-    "static/js/main.32b7bffe.chunk.js"
+    "static/js/main.9114e3d1.chunk.js"
   ]
 }
