@@ -1,23 +1,19 @@
-import { Switch, Route, Link, useHistory, useLocation } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import { Typography, Layout, Space } from 'antd'
 import './App.css';
 
 import {
   Navbar,
   Homepage,
-  Exchanges,
-  Cryptocurrencies,
+  // Cryptocurrencies,
   CryptoDetails,
   News
 } from './components'
+import { lazy, Suspense } from 'react';
+
+const Cryptocurrencies = lazy(() => import("./components/Cryptocurrencies")); 
 
 function App() {
-  const history = useHistory();
-  const location = useLocation();
-
-  if (location?.pathname?.includes("all-about-crypto-universe")) {
-    history.push("/");
-  }
 
   return (
     <div className="app">
@@ -27,23 +23,20 @@ function App() {
       <div className="main">
         <Layout>
           <div className="routes">
-            <Switch>
-              <Route exact path="/">
-                <Homepage></Homepage>
+            <Suspense fallback={<>Loading...</>}>
+            <Routes>
+              <Route exact path="/" index element={<Homepage />}>
               </Route>
-              <Route exact path="/exchanges">
-                <Exchanges></Exchanges>
+              {/* <Route exact path="/exchanges" element={<Exchanges />}> */}
+              {/* </Route> */}
+              <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />}>
               </Route>
-              <Route exact path="/cryptocurrencies">
-                <Cryptocurrencies></Cryptocurrencies>
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails />}>
               </Route>
-              <Route exact path="/crypto/:coinId">
-                <CryptoDetails></CryptoDetails>
+              <Route exact path="/news" element={<News />}>
               </Route>
-              <Route exact path="/news">
-                <News></News>
-              </Route>
-            </Switch>
+            </Routes>
+            </Suspense>
           </div>
         </Layout>
 
@@ -54,7 +47,7 @@ function App() {
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
+            {/* <Link to="/exchanges">Exchanges</Link> */}
             <Link to="/news">News</Link>
           </Space>
         </div>
