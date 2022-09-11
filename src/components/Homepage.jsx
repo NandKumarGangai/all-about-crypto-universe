@@ -13,7 +13,7 @@ const Homepage = () => {
     if (isFetching) {
         return 'Loading...'
     }
-    console.log(data)
+
     return (
         <>
             <Title level={2} className="heading">
