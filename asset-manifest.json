@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/all-about-crypto-universe/static/css/main.8d190b75.css",
-    "main.js": "/all-about-crypto-universe/static/js/main.adbbfd92.js",
-    "static/media/cryptocurrency.png": "/all-about-crypto-universe/static/media/cryptocurrency.1548aced3f0605895bac.png",
+    "main.css": "/all-about-crypto-universe/static/css/main.a439e3c6.chunk.css",
+    "main.js": "/all-about-crypto-universe/static/js/main.aa0aa7e5.chunk.js",
+    "main.js.map": "/all-about-crypto-universe/static/js/main.aa0aa7e5.chunk.js.map",
+    "runtime-main.js": "/all-about-crypto-universe/static/js/runtime-main.efb186f6.js",
+    "runtime-main.js.map": "/all-about-crypto-universe/static/js/runtime-main.efb186f6.js.map",
+    "static/css/2.a2f387c5.chunk.css": "/all-about-crypto-universe/static/css/2.a2f387c5.chunk.css",
+    "static/js/2.1230e838.chunk.js": "/all-about-crypto-universe/static/js/2.1230e838.chunk.js",
+    "static/js/2.1230e838.chunk.js.map": "/all-about-crypto-universe/static/js/2.1230e838.chunk.js.map",
     "index.html": "/all-about-crypto-universe/index.html",
-    "main.8d190b75.css.map": "/all-about-crypto-universe/static/css/main.8d190b75.css.map",
-    "main.adbbfd92.js.map": "/all-about-crypto-universe/static/js/main.adbbfd92.js.map"
+    "static/css/2.a2f387c5.chunk.css.map": "/all-about-crypto-universe/static/css/2.a2f387c5.chunk.css.map",
+    "static/css/main.a439e3c6.chunk.css.map": "/all-about-crypto-universe/static/css/main.a439e3c6.chunk.css.map",
+    "static/js/2.1230e838.chunk.js.LICENSE.txt": "/all-about-crypto-universe/static/js/2.1230e838.chunk.js.LICENSE.txt",
+    "static/media/cryptocurrency.1548aced.png": "/all-about-crypto-universe/static/media/cryptocurrency.1548aced.png"
   },
   "entrypoints": [
-    "static/css/main.8d190b75.css",
-    "static/js/main.adbbfd92.js"
+    "static/js/runtime-main.efb186f6.js",
+    "static/css/2.a2f387c5.chunk.css",
+    "static/js/2.1230e838.chunk.js",
+    "static/css/main.a439e3c6.chunk.css",
+    "static/js/main.aa0aa7e5.chunk.js"
   ]
 }
