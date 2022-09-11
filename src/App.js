@@ -5,7 +5,7 @@ import './App.css';
 import {
   Navbar,
   Homepage,
-  // Cryptocurrencies,
+  Exchanges,
   CryptoDetails,
   News
 } from './components'
@@ -27,8 +27,8 @@ function App() {
             <Routes>
               <Route exact path="/" index element={<Homepage />}>
               </Route>
-              {/* <Route exact path="/exchanges" element={<Exchanges />}> */}
-              {/* </Route> */}
+              <Route exact path="/exchanges" element={<Exchanges />}>
+              </Route>
               <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />}>
               </Route>
               <Route exact path="/crypto/:coinId" element={<CryptoDetails />}>
@@ -47,7 +47,7 @@ function App() {
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
-            {/* <Link to="/exchanges">Exchanges</Link> */}
+            <Link to="/exchanges">Exchanges</Link>
             <Link to="/news">News</Link>
           </Space>
         </div>

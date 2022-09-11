@@ -22,7 +22,8 @@ const Exchanges = () => {
                 <Col span={6}>Change</Col>
             </Row>
             <Row>
-                {exchangesList.map((exchange) => (
+                {!exchangesList?.length && <span>This data fetch is disabled by API Provider.</span> }
+                {exchangesList?.map((exchange) => (
                     <Col key={exchange.id + exchange.rank} span={24}>
                         <Collapse>
                             <Panel
