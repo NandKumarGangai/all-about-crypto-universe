@@ -1,24 +1,14 @@
 {
   "files": {
-    "main.css": "/all-about-crypto-universe/static/css/main.848b2c44.chunk.css",
-    "main.js": "/all-about-crypto-universe/static/js/main.704c3b8a.chunk.js",
-    "main.js.map": "/all-about-crypto-universe/static/js/main.704c3b8a.chunk.js.map",
-    "runtime-main.js": "/all-about-crypto-universe/static/js/runtime-main.084bf636.js",
-    "runtime-main.js.map": "/all-about-crypto-universe/static/js/runtime-main.084bf636.js.map",
-    "static/css/2.786ae0dd.chunk.css": "/all-about-crypto-universe/static/css/2.786ae0dd.chunk.css",
-    "static/js/2.968adc52.chunk.js": "/all-about-crypto-universe/static/js/2.968adc52.chunk.js",
-    "static/js/2.968adc52.chunk.js.map": "/all-about-crypto-universe/static/js/2.968adc52.chunk.js.map",
+    "main.css": "/all-about-crypto-universe/static/css/main.8d190b75.css",
+    "main.js": "/all-about-crypto-universe/static/js/main.adbbfd92.js",
+    "static/media/cryptocurrency.png": "/all-about-crypto-universe/static/media/cryptocurrency.1548aced3f0605895bac.png",
     "index.html": "/all-about-crypto-universe/index.html",
-    "static/css/2.786ae0dd.chunk.css.map": "/all-about-crypto-universe/static/css/2.786ae0dd.chunk.css.map",
-    "static/css/main.848b2c44.chunk.css.map": "/all-about-crypto-universe/static/css/main.848b2c44.chunk.css.map",
-    "static/js/2.968adc52.chunk.js.LICENSE.txt": "/all-about-crypto-universe/static/js/2.968adc52.chunk.js.LICENSE.txt",
-    "static/media/cryptocurrency.1548aced.png": "/all-about-crypto-universe/static/media/cryptocurrency.1548aced.png"
+    "main.8d190b75.css.map": "/all-about-crypto-universe/static/css/main.8d190b75.css.map",
+    "main.adbbfd92.js.map": "/all-about-crypto-universe/static/js/main.adbbfd92.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.084bf636.js",
-    "static/css/2.786ae0dd.chunk.css",
-    "static/js/2.968adc52.chunk.js",
-    "static/css/main.848b2c44.chunk.css",
-    "static/js/main.704c3b8a.chunk.js"
+    "static/css/main.8d190b75.css",
+    "static/js/main.adbbfd92.js"
   ]
 }
